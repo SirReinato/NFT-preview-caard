@@ -1,0 +1,130 @@
+/* estilos gerais */
+h1, img, p{
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background: #0D1A2D;
+}
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* principal */
+.bg{
+    max-width: 340px;
+    background: #15273F;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 7px 8px 0px #00000033;
+    box-shadow: 0px 12px 22px 0px #0000001F;
+    box-shadow: 0px 17px 30px 0px #00000024;
+}
+.img-principal{
+    background-image: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.cor-hover {
+    background-color: hsl(178, 100%, 50%, 50%);
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0;
+  }
+  .cor-hover:hover {
+    opacity: 1;
+    cursor:help;
+  }
+  .olho-hover {
+    background-image: url(../images/icon-view.svg);
+    max-width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+h1{
+    font-size: 1.3rem;
+    padding: 0 20px;
+    font-weight: 400;
+
+    color: hsl(0, 0%, 100%);
+}
+h1:hover{
+
+    color: #00FFF8;
+}
+p{
+    color: #7B93B2;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+/* valores */
+.valor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #00FFF8;
+}
+.dias{
+    color: #829DC7;
+}
+/* criado por */
+.criacao{
+    width: 300px;
+    margin: 0 auto;
+}
+.criacao::before{
+    content: "";
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    border: 1px solid #2F4159;
+}
+.teste{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.teste img{
+    max-width: 30px;
+    max-height: 30px;
+    border: 1px solid #899299;
+    border-radius: 20px;
+}
+.teste span{
+    color: #C7D0DE;
+}
+.teste span:hover{
+    color: #00FFF8;
+}
+
+
+/* inferior */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
